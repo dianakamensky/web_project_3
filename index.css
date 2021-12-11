@@ -24,7 +24,7 @@
 }
 
 .section__title {
-
+  font-family: "Inter-Bold";
 }
 
 .logo {
@@ -98,6 +98,7 @@
    max-width: 785px;
    padding-right: 199px;
    margin: auto;
+   margin-bottom: 118px;
 }
 
 .intro__title {
@@ -148,6 +149,9 @@
    box-sizing: border-box;
    grid-template-columns: repeat(4, 1fr);
    grid-template-rows: repeat(2, 1fr);
+   margin: auto;
+   grid-gap: 16px;
+   margin-bottom: 12px;
 }
 
 .gallery__item {
@@ -162,21 +166,35 @@
 
 .places {
    width: 987px;
-   height: 4098px;
+   max-height: 4098px;
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+   align-content: center;
 }
 
 .place {
    width: 984px;
-   height: 756px;
+   max-height: 756px;
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+   margin-bottom: 80px;
+   margin-top: 0;
+   align-content: center;
 }
 
 .place__name {
    width: 460px;
-   height: 152px;
+   max-height: 152px;
    font-style: normal;
    font-weight: 900;
    font-size: 72px;
    line-height: 76px;
+   font-family: "Inter-Bold";
+   margin: 0;
+   margin-bottom: 48px;
+   
 }
 
 .place__image {
@@ -186,7 +204,11 @@
 
 .place__artist {
    width: 456px;
-   height: 45px;
+   min-height: 45px;
+   align-self: flex-end;
+   margin-bottom: 48px;
+   margin-left: 40px;
+   
 }
 
 .place__artist-title {
@@ -199,6 +221,7 @@
    letter-spacing: 0.12em;
    text-transform: uppercase;
    color: #AAAAAA;
+   margin: 0 0 8px 0;
 }
 
 .place__artist-name {
@@ -208,6 +231,8 @@
    font-weight: normal;
    font-size: 18px;
    line-height: 22px;
+   margin: 0;
+
 }
 
 .place__description {
@@ -215,11 +240,36 @@
    font-weight: normal;
    font-size: 18px;
    line-height: 163%;
+   max-width: 484px;
+   max-height: 460px;
+   margin-left: 40px;
 }
 
-.place__nft-link {
-
+.place__paragraph {
+  margin: 0; 
+  margin-bottom: 25px;
+  padding: 0;
 }
+
+.place__paragraph:nth-last-child(1) {
+   margin-bottom: 0;
+}
+
+.place__nft-link { 
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 48px;
+   color: #FFFFFF;
+   text-decoration: none;
+   width: 248px;
+   height: 48px;   
+   background-color: #0278FE;
+   border-radius: 4px;
+   text-align: center;
+   margin-top: 48px;
+}
+
 
 .invitation {
 
