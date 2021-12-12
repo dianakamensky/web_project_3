@@ -23,10 +23,6 @@
   font-family: 'Inter';
 }
 
-.section__title {
-  font-family: "Inter-Bold";
-}
-
 .logo {
    display: block;
    width: 270px;
@@ -151,7 +147,7 @@
    grid-template-rows: repeat(2, 1fr);
    margin: auto;
    grid-gap: 16px;
-   margin-bottom: 12px;
+   margin-bottom: 92px;
 }
 
 .gallery__item {
@@ -160,9 +156,6 @@
    box-sizing: border-box;
 }
 
-.gallery__image {
-
-}
 
 .places {
    width: 987px;
@@ -255,7 +248,7 @@
    margin-bottom: 0;
 }
 
-.place__nft-link { 
+.buy-link { 
    font-style: normal;
    font-weight: 600;
    font-size: 18px;
@@ -268,43 +261,69 @@
    border-radius: 4px;
    text-align: center;
    margin-top: 48px;
+   display: block;
 }
 
 
-.invitation {
-
+.cover {
+   margin: auto;
+   margin-top: 92px;
+   width: 1184px;
+   min-height: 740px;
+   background-image: url("__background.jpg");
+   display: flex;
+   position: relative;
+   margin-bottom: 92px;
 }
 
-.invitation__overlay {
 
+.cover__overlay {
+   width: 1184px;
+   min-height: 740px;
+   background: #2A2C2F;
+   opacity: 0.3;
+   position: absolute;
+   z-index: 1;
+   left: 0;
+   top: 0;  
 }
 
-.invitation__background-image {
-
+.cover__overlay:hover {
+   opacity: 0.8;
 }
 
-.invitation__text {
-
+.cover__text {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  z-index: 2;
 }
 
-.invitation__title {
-
+.cover__title {
+   height: 76px;
+   font-family: "Inter-Bold";
+   font-size: 72px;
+   margin: 0;
+   margin-bottom: 32px;
+   line-height: 106%;
 }
 
-.invitation__information {
-
+.cover__buy-link {
+   width: 137px;
+   margin: auto;
 }
 
-.invitation__link-box {
-
-}
-
-.invitation__link {
-
+.cover__information {
+  max-height: 66px;
+  width: 180px;
+  margin: auto;
+  margin-bottom: 32px;
+  line-height: 122%;
+  font-size: 18px;
 }
 
 .footer__copyright {
-
+  text-align: center;
 }
 
 
