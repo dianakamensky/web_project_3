@@ -1,0 +1,10 @@
+.cover {
+    margin: auto;
+    margin-top: 92px;
+    max-width: 1184px;
+    min-height: 740px;
+    background-image: url("../../images/__background.jpg");
+    display: flex;
+    position: relative;
+    margin-bottom: 92px;
+ }

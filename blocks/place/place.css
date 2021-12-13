@@ -1,0 +1,10 @@
+.place {
+    width: 984px;
+    max-height: 756px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 80px;
+    margin-top: 0;
+    align-content: center;
+ }

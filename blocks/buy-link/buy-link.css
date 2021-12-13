@@ -1,0 +1,15 @@
+.buy-link { 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 248px;
+    height: 48px;   
+    background-color: #0278FE;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 48px;
+    display: block;
+ }

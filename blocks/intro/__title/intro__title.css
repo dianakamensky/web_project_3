@@ -1,0 +1,21 @@
+.intro__title {
+    width: 100%;
+    font-style: normal;
+    font-family: "Inter-SemiBold";
+    font-size: 54px;
+    line-height: 1.07;
+    padding: 0;
+    margin-top: 92px;
+    margin-bottom: 40px;
+ }
+
+ @media all and (min-width: 320px) and (max-width: 768px) {
+    .intro__title {
+      font-size: 32px;
+      line-height: 1.09;
+      width: 288px;
+      margin: auto;
+      margin-top: 64px;
+      margin-bottom: 40px;
+ }
+}

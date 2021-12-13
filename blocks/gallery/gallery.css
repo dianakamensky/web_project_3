@@ -1,0 +1,14 @@
+.gallery {
+    max-width: 1184px;
+    display: grid;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    grid-template-columns: repeat(auto-fill, 284px);
+    grid-template-rows: repeat(1fr);
+    grid-gap: 16px;
+    margin-bottom: 92px;
+    justify-content: center;
+ }
+ 
