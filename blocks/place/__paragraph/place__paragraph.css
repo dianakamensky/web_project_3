@@ -7,3 +7,9 @@
 .place__paragraph:nth-last-child(1) {
     margin-bottom: 0;
  }
+
+ @media all and (min-width: 768px) and (max-width: 1279px) {
+   .place__paragraph {
+   font-size: 16px;
+ }
+}

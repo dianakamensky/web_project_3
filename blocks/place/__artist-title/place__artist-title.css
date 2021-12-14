@@ -10,3 +10,9 @@
     color: #AAAAAA;
     margin: 0 0 8px 0;
  }
+
+ @media all and (min-width: 320px) and (max-width: 767px) {
+     .place__artist-title {
+         width: 90%;
+     }
+ }

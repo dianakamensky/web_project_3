@@ -8,3 +8,12 @@
     position: relative;
     margin-bottom: 92px;
  }
+
+ @media all and (min-width: 320px) and (max-width: 767px) {
+     .cover {
+         min-height: 254px;
+         margin-top: 64px;
+         margin-bottom: 64px;
+         background-size: cover;
+     }
+ }
