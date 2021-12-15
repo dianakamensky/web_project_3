@@ -1,21 +1,21 @@
 .intro__paragraph {
-    width: 720px;
-    min-height: 156px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 163%;
- }
+  width: 720px;
+  min-height: 156px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+}
 
- @media all and (min-width: 320px) and (max-width: 767px) {
-     .intro__paragraph {
-         margin: auto;
-         width: 90%;
- }
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .intro__paragraph {
+    margin: auto;
+    width: 90%;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1279px) {
-    .intro__paragraph {
-        width: 100%;
-    }
+  .intro__paragraph {
+    width: 100%;
+  }
 }

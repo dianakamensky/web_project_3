@@ -1,15 +1,15 @@
 .lead__image {
-    position: relative;
-    max-width: 984px;
-    margin: auto;
-    display: block;
- }
+  position: relative;
+  max-width: 984px;
+  margin: auto;
+  display: block;
+}
 
- @media all and (min-width: 768px) and (max-width: 1279px) {
-     .lead__image {
-         width: 100vw;
-         max-width: none;
-         position: relative;
-         left: calc(-50vw + 50%);
-     }
- }
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  .lead__image {
+    width: 100vw;
+    max-width: none;
+    position: relative;
+    left: calc(-50vw + 50%);
+  }
+}

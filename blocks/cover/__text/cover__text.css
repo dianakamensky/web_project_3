@@ -1,12 +1,12 @@
 .cover__text {
-    text-align: center;
-    margin: auto;
-    position: relative;
-    z-index: 2;
-  }
+  text-align: center;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
 
-  @media all and (min-width: 320px) and (max-width: 767px) {
-    .cover__text {
-      height: 163px;
-    }
+@media all and (min-width: 320px) and (max-width: 767px) {
+  .cover__text {
+    height: 163px;
   }
+}
