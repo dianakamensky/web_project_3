@@ -3,4 +3,5 @@
   color: #ffffff;
   font-family: "Inter";
   margin: 0;
+  overflow-x: hidden;
 }
