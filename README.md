@@ -6,4 +6,4 @@ An introduction to various cities around the world that tech professionals come 
 
 Html and CSS, using the `BEM` methodology.
 
-[Project webpage](https://dianakamensky.github.io/web_project_3/)
+[Webpage](https://dianakamensky.github.io/web_project_3/)
