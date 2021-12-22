@@ -1,5 +1,4 @@
 .place__artist-name {
-  width: 456px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -7,8 +6,3 @@
   margin: 0;
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
-  .place__artist-name {
-    width: 288px;
-  }
-}

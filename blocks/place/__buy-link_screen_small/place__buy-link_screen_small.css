@@ -1,12 +1,12 @@
-.place__buy-link {
-  width: 248px;
-  grid-area: link;
+.place__buy-link_screen_small {
+    display: none;
 }
 
 @media all and (min-width: 320px) and (max-width: 767px) {
-  .place__buy-link {
+  .place__buy-link_screen_small {
     margin-top: 0;
     width: 90%;
     margin: auto;
+    display: block;
   }
 }

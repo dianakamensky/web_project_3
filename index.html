@@ -6,12 +6,13 @@
     <title>From Homeland to Homeland</title>
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
-  <body class="main">
-    <img
+  <body class="body">
+    <header><img
       class="logo"
       src="images/__logo.svg"
       alt="Practicum Art Gallery logo"
-    />
+    /></header>
+    <main class="main">
     <section class="lead">
       <h1 class="lead__title">From Homeland to Homeland</h1>
       <p class="lead__subtitle">
@@ -47,64 +48,41 @@
         you're our neighbor.
       </p>
     </section>
-    <div class="gallery">
-      <div class="gallery__item">
-        <img
-          class="gallery__image"
-          src="images/__item1.jpg"
-          alt="Cricieth, Wales"
-        />
-      </div>
-      <div class="gallery__item">
-        <img
-          class="gallery__image"
-          src="images/__item2.jpg"
-          alt="Cricieth, Wales"
-        />
-      </div>
-      <div class="gallery__item">
-        <img
-          class="gallery__image"
-          src="images/__item3.jpg"
-          alt="Kyiv, Ukraine"
-        />
-      </div>
-      <div class="gallery__item">
-        <img
-          class="gallery__image"
-          src="images/__item4.jpg"
-          alt="Kyiv, Ukraine"
-        />
-      </div>
-      <div class="gallery__item">
-        <img class="gallery__image" src="images/__item5.jpg" alt="Berea, USA" />
-      </div>
-      <div class="gallery__item">
-        <img class="gallery__image" src="images/__item6.jpg" alt="Berea, USA" />
-      </div>
-      <div class="gallery__item">
-        <img
-          class="gallery__image"
-          src="images/__item7.jpg"
-          alt="Muramvya, Burundi"
-        />
-      </div>
-      <div class="gallery__item">
-        <img
-          class="gallery__image"
-          src="images/__item8.jpg"
-          alt="Muramvya, Burundi"
-        />
-      </div>
-    </div>
+    <section class="gallery">
+        <div class="gallery__item">
+          <img class="gallery__image" src="images/__item1.jpg" alt="Cricieth, Wales"/>
+          </div>
+        <div class="gallery__item">
+          <img class="gallery__image" src="images/__item2.jpg" alt="Cricieth, Wales"/>
+          </div>
+        <div class="gallery__item">
+         <img class="gallery__image" src="images/__item3.jpg" alt="Kyiv, Ukraine"/>
+          </div>
+        <div class="gallery__item">
+         <img class="gallery__image" src="images/__item4.jpg" alt="Kyiv, Ukraine"/>
+          </div>
+        <div class="gallery__item">
+         <img class="gallery__image" src="images/__item5.jpg" alt="Berea, USA"/>
+          </div>
+        <div class="gallery__item">
+         <img class="gallery__image" src="images/__item6.jpg" alt="Berea, USA"/>
+         </div>
+        <div class="gallery__item">
+         <img class="gallery__image" src="images/__item7.jpg" alt="Muramvya, Burundi"/>
+         </div>
+         <div class="gallery__item">
+        <img class="gallery__image" src="images/__item8.jpg" alt="Muramvya, Burundi"/>
+        </div>
+    </section>
     <section class="places">
-      <div class="place">
+      <article class="place">
         <h2 class="place__name">Kyiv, Ukraine</h2>
         <div class="place__artist">
           <p class="place__artist-title">Artist</p>
           <p class="place__artist-name">Natalia Dolgushina, content producer</p>
         </div>
-        <img class="place__image" src="images/__kyiv.jpg" alt="Kyiv" />
+        <div class="place__image-div"><img class="place__image" src="images/__kyiv.jpg" alt="Kyiv" />
+        <a href="#" class="place__buy-link_screen_large buy-link">Buy this artwork as NFT</a></div>
         <div class="place__description">
           <p class="place__paragraph">
             Kyiv (or Kiev), Ukraine's capital, is a large city located on the
@@ -123,16 +101,17 @@
             people who live on the far outskirts of the right one.
           </p>
         </div>
-        <a href="#" class="place__buy-link buy-link">Buy this artwork as NFT</a>
-      </div>
-      <div class="place">
+        <a href="#" class="place__buy-link_screen_small buy-link">Buy this artwork as NFT</a>
+      </article>
+      <article class="place">
         <h2 class="place__name">Cricieth, Wales</h2>
         <div class="place__artist">
           <p class="place__artist-title">Artist</p>
           <p class="place__artist-name">Steffan Warren, lead editor</p>
           <p class="place__artist-name">Kseniya Glagoleva, project manager</p>
         </div>
-        <img class="place__image" src="images/__cricieth.jpg" alt="Cricieth" />
+        <div class="place__image-div"><img class="place__image" src="images/__cricieth.jpg" alt="Cricieth" />
+        <a href="#" class="place__buy-link_screen_large buy-link">Buy this artwork as NFT</a></div>
         <div class="place__description">
           <p class="place__paragraph">
             The medieval ruin of Cricieth Castle overlooks the town below from a
@@ -151,15 +130,16 @@
             office of Prime Minister of the UK.
           </p>
         </div>
-        <a href="#" class="place__buy-link buy-link">Buy this artwork as NFT</a>
-      </div>
-      <div class="place">
+        <a href="#" class="place__buy-link_screen_small buy-link">Buy this artwork as NFT</a>
+      </article>
+      <article class="place">
         <h2 class="place__name">Berea, USA</h2>
         <div class="place__artist">
           <p class="place__artist-title">Artist</p>
           <p class="place__artist-name">Travis Turner, author and editor</p>
         </div>
-        <img class="place__image" src="images/__berea.jpg" alt="Berea" />
+        <div class="place__image-div"><img class="place__image" src="images/__berea.jpg" alt="Berea" />
+        <a href="#" class="place__buy-link_screen_large buy-link">Buy this artwork as NFT</a></div>
         <div class="place__description">
           <p class="place__paragraph">
             Berea is a small town located in the central part of Kentucky. The
@@ -178,15 +158,16 @@
             full-tuition scholarship.
           </p>
         </div>
-        <a href="#" class="place__buy-link buy-link">Buy this artwork as NFT</a>
-      </div>
-      <div class="place">
+        <a href="#" class="place__buy-link_screen_small buy-link">Buy this artwork as NFT</a>
+      </article>
+      <article class="place">
         <h2 class="place__name">Muramvya, Burundi</h2>
         <div class="place__artist">
           <p class="place__artist-title">Artist</p>
           <p class="place__artist-name">Grevisse Kenguruka, tech editor</p>
         </div>
-        <img class="place__image" src="images/__muramvya.jpg" alt="Muramvya" />
+        <div class="place__image-div"><img class="place__image" src="images/__muramvya.jpg" alt="Muramvya" />
+        <a href="#" class="place__buy-link_screen_large buy-link">Buy this artwork as NFT</a></div>
         <div class="place__description">
           <p class="place__paragraph">
             Muramvya is one of the 18 provinces of Burundi. In the kingdom era,
@@ -211,20 +192,21 @@
             rivers and streams which provide water around the country.
           </p>
         </div>
-        <a href="#" class="place__buy-link buy-link">Buy this artwork as NFT</a>
-      </div>
+        <a href="#" class="place__buy-link_screen_small buy-link">Buy this artwork as NFT</a>
+      </article>
     </section>
     <section class="cover">
       <div class="cover__overlay"></div>
       <div class="cover__text">
-        <h2 class="section-title cover__title">Visit us</h2>
+        <h2 class="cover__title">Visit us</h2>
         <p class="cover__information">
-          Year-round Practicum&nbsp;Art&nbsp;Gallery
+          Year-round<br>Practicum&nbsp;Art&nbsp;Gallery
           404&nbsp;Tim&nbsp;Berners-&nbsp;Lee&nbsp;Ave
         </p>
         <a href="#" class="buy-link cover__buy-link">Buy tickets</a>
       </div>
     </section>
-    <p class="copyright">© 2021. Diana Kamensky</p>
+  </main>
+    <footer class="copyright">© 2021. Diana Kamensky</footer>
   </body>
 </html>

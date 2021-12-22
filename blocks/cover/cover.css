@@ -9,6 +9,11 @@
   margin-bottom: 92px;
 }
 
+
+.cover:hover {
+    opacity: 0.8;
+  }
+
 @media all and (min-width: 320px) and (max-width: 767px) {
   .cover {
     min-height: 254px;

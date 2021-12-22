@@ -1,6 +1,6 @@
-.main {
+.body {
   background-color: #2a2c2f;
   color: #ffffff;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   margin: 0;
 }
