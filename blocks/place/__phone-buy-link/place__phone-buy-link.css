@@ -1,9 +1,9 @@
-.place__buy-link_screen_small {
+.place__phone-buy-link {
     display: none;
 }
 
 @media all and (min-width: 320px) and (max-width: 767px) {
-  .place__buy-link_screen_small {
+  .place__phone-buy-link {
     margin-top: 0;
     width: 90%;
     margin: auto;
